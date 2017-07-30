@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadarDiffuseView">
+        <!--扩散圆画笔颜色-->
+        <attr name="diffusePaint_Color" format="color"    />
+        <!--中心圆画笔颜色-->
+        <attr name="innerPaint_Color" format="color"/>
+        <!--中心圆半径-->
+        <attr name="innerCircle_Radius" format="dimension"/>
+        <!--是否开启雷达扫描-->
+        <attr name="radarBool" format="boolean"/>
+        <!--是否开启扩散-->
+        <attr name="openDiffseBoolean" format="boolean"/>
+    </declare-styleable>
+</resources>
